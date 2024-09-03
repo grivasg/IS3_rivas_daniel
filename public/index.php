@@ -6,6 +6,7 @@ use MVC\Router;
 use Controllers\AppController;
 use Controllers\DetalleController;
 use Controllers\MapaController;
+use Controllers\EstadoController;
 
 $router = new Router();
 $router->setBaseURL('/' . $_ENV['APP_NAME']);
@@ -19,6 +20,9 @@ $router->get('/API/detalle/estadistica', [DetalleController::class,'detalleOpera
 
 //MAPA
 $router->get('/mapa', [MapaController::class,'index']);
+
+//ESTADO
+$router->get('/estado', [EstadoController::class,'index']);
 
 
 

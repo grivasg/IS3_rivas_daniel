@@ -41,7 +41,7 @@
                                 <a class="dropdown-item nav-link text-white " href="/IS3_rivas_daniel/mapa"><i class="bi bi-globe-americas"></i> Mapa</a>
                             </li>
                             <li>
-                                <a class="dropdown-item nav-link text-white " href="/IS3_rivas_daniel/operaciones/estadisticas"><i class="bi bi-clock-history"></i> Estado</a>
+                                <a class="dropdown-item nav-link text-white " href="/IS3_rivas_daniel/estado"><i class="bi bi-clock-history"></i> Estado</a>
                             </li>
                         </ul>
                     </div>

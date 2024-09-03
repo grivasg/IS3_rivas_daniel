@@ -9,7 +9,8 @@ module.exports = {
     'js/rol/index' : './src/js/rol/index.js',
     'js/menu/index' : './src/js/menu/index.js',
     'js/operaciones/estadisticas' : './src/js/operaciones/estadisticas.js',
-    'js/mapa/index' : './src/js/mapa/index.js'
+    'js/mapa/index' : './src/js/mapa/index.js',
+    'js/estado/index' : './src/js/estado/index.js'
 
 
   },
