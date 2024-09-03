@@ -1,6 +1,7 @@
 import { Dropdown } from "bootstrap";
 import L from 'leaflet';
 
+
 const map = L.map('map', {
     center: [15.525158, -90.32959],
     zoom: 7,
@@ -22,11 +23,6 @@ const icon = L.icon({
 });
 
 L.marker([15.525158, -90.32959], {
-    icon: icon
-}).addTo(markerLayer);
-
-
-L.marker([14.634915, --90.506882], {
     icon: icon
 }).addTo(markerLayer);
 
