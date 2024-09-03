@@ -17,7 +17,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const markerLayer = L.layerGroup();
 
 const icon = L.icon({
-    iconUrl: './images/zavala.png',
+    iconUrl: './images/cit.png',
     iconSize: [35, 35]
 });
 
